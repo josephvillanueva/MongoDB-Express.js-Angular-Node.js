@@ -7,6 +7,8 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatButtonModule } from "@angular/material/button";
+import {MatCardModule} from '@angular/material/card';
 import { FormsModule } from '@angular/forms'
 
 @NgModule({
@@ -20,7 +22,9 @@ import { FormsModule } from '@angular/forms'
     BrowserAnimationsModule,
     MatInputModule,
     FormsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
